@@ -1,0 +1,186 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+#wrapperDiv {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 4rem auto;
+}
+
+#formWrapper {
+    background-image: linear-gradient(to top right, rgb(0, 0, 0), rgb(95, 95, 95));
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container{
+    position: relative;
+}
+
+.pass-img{
+    position: absolute;
+    width: 10px;
+    top: 11.5px;
+    left: 18px;
+}
+
+.user-img{
+    position: absolute;
+    width: 10px;
+    top: 12.5px;
+    left: 18px;
+}
+
+button, label, input{
+    display: block;
+    margin: 0.5rem;
+    width: 140px;
+}
+
+input, button{
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+}
+
+#resultDiv {
+    background-color: #bbbbbb;
+    padding: 2rem;
+    color:  rgb(39, 39, 39);
+}
+
+#resultDiv p {
+    color:  rgb(39, 39, 39);
+}
+
+h2 {
+    margin-top: 1rem;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+p { 
+    font-size: 12px; 
+}
+
+#resPar, #alertPar, #welcome {
+    font-size: 16px;
+}
+
+h2, h3, p {
+    padding: 0.6rem;
+    color: whitesmoke
+}
+
+button {
+    background-color: #59CCBD;
+}
+
+#logOut {
+    margin: auto;
+}
+
+ol {
+    font-size: 0.9rem;
+    text-align: start;
+    margin: 1rem;
+}
+
+
+
+@media screen and (min-width: 660px){
+    #wrapperDiv {
+        flex-direction: row;
+        width: 80%;
+        margin: 4rem auto;
+    }
+    
+    #formWrapper {
+        width: 40%;
+        background-image: linear-gradient(to top right, rgb(0, 0, 0), rgb(95, 95, 95));
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #resultDiv {
+        width: 60%;
+        background-color: #bbbbbb;
+        padding: 2rem;
+        color:  rgb(39, 39, 39);
+    }
+    
+    #resultDiv p {
+        color:  rgb(39, 39, 39);
+    }
+    
+    button, label, input{
+        display: block;
+        margin: 0.5rem;
+        width: 200px;
+    }
+    
+    .input-container{
+        position: relative;
+    }
+    
+    .pass-img{
+        position: absolute;
+        width: 10px;
+        top: 11.5px;
+        left: 18px;
+    }
+    
+    .user-img{
+        position: absolute;
+        width: 10px;
+        top: 12.5px;
+        left: 18px;
+    }
+    
+    input, button{
+        height: 36px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+    }
+    
+    h2 {
+        margin-top: 2rem;
+    }
+
+    h2, h3, p {
+        padding: 1rem;
+        color: whitesmoke
+    }
+    
+    button {
+        background-color: #59CCBD;
+    }
+    
+    #logOut {
+        margin: auto;
+    }
+    
+    ol {
+        font-size: 0.9rem;
+        text-align: start;
+        margin: 1rem;
+    } 
+}
+

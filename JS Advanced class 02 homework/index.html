@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>JS Advanced class 02 homework</title>
+</head>
+<body>
+    <div id="wrapperDiv">
+        <div id="formWrapper">
+            
+            <h2>Welcome back to Janaland</h2>
+    
+            <p>Please enter your username and password to login to your account!</p>
+
+            <form action="" method="POST">
+                <div class="input-container">
+                    <input type="text" id="userName" placeholder="        Username" />
+                    <img class="user-img" src="img/pngwing.com.png" />
+                </div>
+                <div class="input-container">
+                    <input type="password" id="pass" placeholder="        Password" />
+                    <img class="pass-img" src="img/passIcon.png" />
+                </div>
+                <button type="button" id="loginBtn">Login</button>
+            </form>
+        
+            <h3>Don't have an account? Sign Up!</h3>
+            
+            <form action="" method="POST">
+                <div class="input-container">
+                    <input type="text" id="newUserUsername" placeholder="        Username" />
+                    <img class="user-img" src="img/pngwing.com.png" />
+                </div>
+                <div class="input-container">
+                    <input type="password" id="newUserPass" placeholder="        Password" />
+                    <img class="pass-img" src="img/passIcon.png" />
+                </div>
+                <button type="button" id="registerBtn">Sign Up</button>
+            </form>
+        </div>
+
+        <div id="resultDiv">
+            <p id="resPar"></p>
+            <ol id="showIfAdmin"></ol>
+            <button type="button" id="logOut">Log Out</button>    
+            <p id="welcome"></p>
+            <ol id="usernamesList"></ol>
+            <p id="alertPar"></p>
+        </div>
+    </div>
+    
+    
+    <script src="script.js"></script>
+    
+</body>
+</html>
