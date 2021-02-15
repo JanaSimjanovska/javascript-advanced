@@ -99,6 +99,8 @@ logOutBtn.addEventListener("click", function(){
 
 
 registerBtn.addEventListener("click", function(){
+    alertPar.innerText = "";
+    welcomePar.innerText = "";
     resPar.innerText = "";
     showIfAdmin.innerHTML = "";
     logOutBtn.style.display = "none";
