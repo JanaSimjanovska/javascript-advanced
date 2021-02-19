@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <title>JS Advanced Class 03 Homework</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <h2>Exercise 01 - Print one user</h2>
+    <button id="printUser9" type="button">Print user 9</button>
+    <p id="user9"></p>
+
+    <h2>Exercise 02 - Return album containing "omnis" in title</h2>
+    <button id="getTitleWithOmnis" type="button">All titles with "omnis"</button>
+    <p id="printTitle"></p>
+
+    <h2>Exercise 03 - Create one user</h2>
+    <div id="ex3">
+        <form>
+            <fieldset>
+                <legend>Personal info</legend>
+                <div class="inner-flex">
+                    <label for="name">First and Last Name:</label>
+                    <input type="text" id="name" placeholder="Enter first and last name:"/>
+                    <label for="userName">Username:</label>
+                    <input type="text" id="userName" placeholder="Enter username:"/>
+                    <label for="emailAddress">email:</label>
+                    <input type="email" id="emailAddress" placeholder="Enter email address:" />
+                </div>
+                <fieldset class="inside">
+                    <legend>Address</legend>
+                    <label for="street">Street:</label>
+                    <input type="text" id="street" placeholder="Enter street:"/>
+                    <label for="suite">Apt. number:</label>
+                    <input type="text" id="suite" placeholder="Enter apt. number:"/>
+                    <label for="city">City:</label>
+                    <input type="text" id="city" placeholder="Enter city:"/>
+                    <label for="zipCode">Zip Code:</label>
+                    <input type="number" id="zipCode" placeholder="Enter zip code:"/>
+                    <fieldset>
+                    <legend>Geo</legend>
+                    <label for="latitude">Latitude:</label>
+                    <input type="number" id="latitude" placeholder="Enter latitude:"/>
+                    <label for="longitude">Longitude:</label>
+                    <input type="number" id="longitude" placeholder="Enter longitude:"/>
+                    </fieldset>
+                </fieldset>
+                <div class="inner-flex">
+                    <label for="phoneNumber">Phone number:</label>
+                    <input type="tel" id="phoneNumber" placeholder="Enter phone number:"/>
+                    <label for="website">Website:</label>
+                    <input type="url" id="website" placeholder="Enter website url:"/>
+                </div>
+                <fieldset class="inside">
+                    <legend>Company</legend>
+                    <label for="companyName">Company name:</label>
+                    <input type="text" id="companyName" placeholder="Enter company name:"/>
+                    <label for="catchPhrase">Company slogan:</label>
+                    <input type="text" id="catchPhrase" placeholder="Enter company slogan:"/>
+                    <label for="companyActivity">Main company activity:</label>
+                    <input type="text" id="companyActivity" placeholder="Enter main company activity:"/>
+                </fieldset>
+                <button id="createNewUser" type="button">Create new user</button>
+            </fieldset>
+        </form>
+        <p id="newUserPar"></p>
+    </div>
+    
+    <h2>Exercise 04 - Delete random to-do</h2>
+    <button id="deleteToDoBtn" type="button">Delete random to-do</button>
+   
+
+
+    <script src="script.js"></script>
+</body>
+</html>
