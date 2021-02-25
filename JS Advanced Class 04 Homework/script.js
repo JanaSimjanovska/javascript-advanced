@@ -8,6 +8,7 @@ let testString = "Hello"
 let resultString = "";
 let resultString2 = "";
 
+// Dvete funkcii vo prodolzenie se isti, samo za da si povezbam napraiv ednas anonimna, ednas arrow funkcija
 
 let reverseString = function(string) {
     if (string === '') {
